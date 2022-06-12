@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 
 def nav1():
-    df=pd.read_csv("C://Users//anura//Downloads//US Superstore data.csv")
+    df=pd.read_csv("US Superstore data.csv")
     st.dataframe(df,height=500,width=800)
 
 selected=st.sidebar.radio("Main Menu",['About','View Data','Visualize','Time Series Analysis','Future Sales Prediction'])    

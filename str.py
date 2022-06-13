@@ -10,7 +10,11 @@ selected=st.sidebar.radio("Main Menu",['About','View Data','Visualize','Time Ser
 
 if selected =='About':
     st.title("About")
-    st.write("Abstract")
+    st.write("In this era of technology development, every business wants to equip its salesforce with a sustainable salesforce automation system to improve sales performance and customer relationship management capabilities.")
+    st.write("\n\n")
+    st.write("All companies rely on sales figures to see how they are performing. That said, looking at the revenue generated cannot help pinpoint what’s working (or not). Without metrics to guide you, it’s hard to make educated and data-driven decisions that will benefit your company now and in the future. This is where sales analysis comes in.")
+    st.write("\n\n")
+    st.write("A superstore with operations across the US aims to understand some certain features of the business and get vital information from its data to be able to plan or focus on what is selling with a full understanding of sales trend and forecasting for the future.")
     
 elif selected=='View Data':
     st.title("Data")
